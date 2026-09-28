@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DataTypes/DataTypes.csproj" />
+  <Project Path="HelloWorld/HelloWorld.csproj" />
+</Solution>
