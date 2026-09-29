@@ -29,9 +29,10 @@
             totalPrice = productPrice + vatAmount;
 
             // Print results
-            Console.WriteLine($"Product Price: {productPrice:F2}");
-            Console.WriteLine($"VAT Amount: {vatAmount:F2}");
-            Console.WriteLine($"Total Price: {totalPrice:F2}");
+            Console.OutputEncoding = System.Text.Encoding.UTF8; // Set output encoding to UTF-8 for Euro symbol
+            Console.WriteLine($"Product Price: {productPrice:F2} \u20AC");
+            Console.WriteLine($"VAT Amount: {vatAmount:F2} \u20AC");
+            Console.WriteLine($"Total Price: {totalPrice:F2} \u20AC");
         }
     }
 }
