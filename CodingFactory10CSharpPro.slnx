@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="DataTypes/DataTypes.csproj" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
+  <Project Path="IfUseCases/IfUseCases.csproj" Id="4d5df523-6493-4196-9507-9f4267792d69" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
   <Project Path="NumberRead/NumberRead.csproj" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
