@@ -1,10 +1,14 @@
 <Solution>
   <Project Path="DataTypes/DataTypes.csproj" />
+  <Project Path="FormatExceptionApp/FormatExceptionApp.csproj" Id="10628a44-a4a6-4330-a318-0595a6badc42" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="IfUseCases/IfUseCases.csproj" Id="4d5df523-6493-4196-9507-9f4267792d69" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
   <Project Path="NumberRead/NumberRead.csproj" />
+  <Project Path="PositivesCount/PositivesCount.csproj" Id="c54d536f-f0c5-4e81-9582-4b5ebb771521" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
   <Project Path="ProductsVat/ProductsVat.csproj" />
+  <Project Path="ProductWhileApp/ProductWhileApp.csproj" Id="5d4e06af-a0bf-4e83-8617-d13ef98630e4" />
   <Project Path="SwitchApp/SwitchApp.csproj" Id="f4e2f6fb-4164-4c9b-8611-26d89a44abff" />
+  <Project Path="WhileApp/WhileApp.csproj" Id="bd769119-009d-4be4-a6b3-9493d6257b3c" />
 </Solution>
