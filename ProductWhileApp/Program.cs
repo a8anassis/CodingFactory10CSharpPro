@@ -18,7 +18,7 @@ namespace ProductWhileApp
                 result *= i;
                 i++;
             }
-            Console.WriteLine($"Το αποτέλεσμα είναι: {result}");
+            Console.WriteLine($"Το αποτέλεσμα είναι: {result:N0}");
         }
     }
 }
