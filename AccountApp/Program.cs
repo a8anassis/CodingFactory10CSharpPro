@@ -7,7 +7,7 @@ namespace AccountApp
     {
         static void Main(string[] args)
         {
-            var account = new Account()
+            Account account = new()
             {
                 Id = 1,
                 Iban = "GR123456789",

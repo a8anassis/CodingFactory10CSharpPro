@@ -38,6 +38,14 @@ internal class Account
         }
     }
 
+    /// <summary>
+    /// Withdraws the specified amount from the account if the provided SSN matches the account holder's SSN.
+    /// </summary>
+    /// <param name="amount">The amount to withdraw.</param>
+    /// <param name="ssn">The SSN of the account holder.</param>
+    /// <exception cref="InvalidSsnException">If the provided SSN does not match the account holder's SSN.</exception>
+    /// <exception cref="NegativeAmountException">If the withdrawal amount is negative.</exception>
+    /// <exception cref="InsufficientBalanceException">If there are insufficient funds for the withdrawal.</exception>
     public void Withdraw(decimal amount, string? ssn)
     {
         try
