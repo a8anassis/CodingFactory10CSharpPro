@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace UtilityClassesApp;
 
-namespace UtilityClassesApp
+internal static class HelloUtil
 {
-    internal static class HelloUtil
-    {
 
-        public static void SayHello()
-        {
-            Console.WriteLine($"Hello, Coding Factory!");
-        }
+    public static void SayHello()
+    {
+        Console.WriteLine($"Hello, Coding Factory!");
     }
 }
