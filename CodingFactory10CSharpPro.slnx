@@ -23,5 +23,6 @@
   <Project Path="StringsApp/StringsApp.csproj" Id="4440307d-7126-4c10-adc9-f21ef1b6ec7d" />
   <Project Path="SwapApp/SwapApp.csproj" Id="311c0744-3033-4a7c-8277-a8be8e75ca1a" />
   <Project Path="SwitchApp/SwitchApp.csproj" Id="f4e2f6fb-4164-4c9b-8611-26d89a44abff" />
+  <Project Path="UtilityClassesApp/UtilityClassesApp.csproj" Id="5a046092-e1c3-4fd0-8e4b-93aa83dfe38c" />
   <Project Path="WhileApp/WhileApp.csproj" Id="bd769119-009d-4be4-a6b3-9493d6257b3c" />
 </Solution>
