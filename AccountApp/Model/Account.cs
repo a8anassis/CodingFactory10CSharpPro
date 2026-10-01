@@ -1,4 +1,5 @@
-﻿using AccountApp.Exceptions;
+﻿
+using AccountApp.Exceptions;
 
 namespace AccountApp.Model;
 
