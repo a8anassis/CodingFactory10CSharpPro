@@ -14,6 +14,7 @@
   <Project Path="NullableStringApp/NullableStringApp.csproj" Id="0282bbcf-74cb-49b0-bee1-7f897740bf20" />
   <Project Path="NumberRead/NumberRead.csproj" />
   <Project Path="OOApp/OOApp.csproj" Id="463120a1-3056-43bf-90f5-3040b04f35c2" />
+  <Project Path="PointApp/PointApp.csproj" Id="cd0501a9-13f7-4717-8d80-d8abb1d099b4" />
   <Project Path="PositivesCount/PositivesCount.csproj" Id="c54d536f-f0c5-4e81-9582-4b5ebb771521" />
   <Project Path="PowerApp/PowerApp.csproj" Id="de4d2205-5e07-4281-aefb-df69a16f8993" />
   <Project Path="PrintingApp/PrintingApp.csproj" />
