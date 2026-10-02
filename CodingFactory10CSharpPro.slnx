@@ -13,6 +13,7 @@
   <Project Path="IfUseCases/IfUseCases.csproj" Id="4d5df523-6493-4196-9507-9f4267792d69" />
   <Project Path="InterfacesApp/InterfacesApp.csproj" Id="a032cc0e-e0ab-4df2-b83e-4a4de5106c1e" />
   <Project Path="KilometersApp/KilometersApp.csproj" />
+  <Project Path="LinqApp/LinqApp.csproj" Id="dc1a4336-c802-4cda-9728-67d5953c9d35" />
   <Project Path="LinqArrays/LinqArrays.csproj" Id="836291c7-2e9a-4b0c-b2dd-f356979a2751" />
   <Project Path="NullableStringApp/NullableStringApp.csproj" Id="0282bbcf-74cb-49b0-bee1-7f897740bf20" />
   <Project Path="NumberRead/NumberRead.csproj" />
