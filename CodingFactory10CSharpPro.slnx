@@ -8,6 +8,7 @@
   <Project Path="DoWhileApp/DoWhileApp.csproj" Id="9f0cdc8c-1edb-4b09-a078-28589a08508a" />
   <Project Path="ExtractCapitals/ExtractCapitals.csproj" Id="f51cca1f-81d8-4b88-97c7-198933036cc5" />
   <Project Path="FibonacciIterative/FibonacciIterative.csproj" Id="4a664547-e677-4f19-9a18-3304a2ae2a31" />
+  <Project Path="FileManagementApp/FileManagementApp.csproj" Id="50b96d4c-7e28-43c6-9b45-1175e9f503cf" />
   <Project Path="FormatExceptionApp/FormatExceptionApp.csproj" Id="10628a44-a4a6-4330-a318-0595a6badc42" />
   <Project Path="HelloWorld/HelloWorld.csproj" />
   <Project Path="IfUseCases/IfUseCases.csproj" Id="4d5df523-6493-4196-9507-9f4267792d69" />

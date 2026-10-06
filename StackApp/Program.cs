@@ -21,7 +21,6 @@
                 {
                     Console.WriteLine(myStack.Peek(i));
                 }
-
             }
             catch (StackIsFullException ex)
             {
