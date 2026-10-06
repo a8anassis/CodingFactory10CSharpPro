@@ -19,7 +19,7 @@ internal class DLList<T>
     }
 
 
-    private void InsertLast(T t) => _list.AddLast(new ListNode<T> { Value = t, Count = 1 });
+    private void InsertLast(T t) => _list.AddLast(new ListNode<T>() { Value = t, Count = 1 });
 
 
     public void UpSert(T t)
