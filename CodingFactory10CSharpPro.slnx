@@ -29,6 +29,7 @@
   <Project Path="PyramidChallenge/PyramidChallenge.csproj" Id="98247d56-49ff-4255-bbb5-c7b8570b10c6" />
   <Project Path="RegExApp/RegExApp.csproj" Id="3d07906d-0d31-41a6-8d2a-d67a9d7a8fd1" />
   <Project Path="StackApp/StackApp.csproj" Id="7fe3d5c3-c198-4527-9ab3-41d66f0943dd" />
+  <Project Path="StreamReadWrite/StreamReadWrite.csproj" Id="0e6cb23f-3f7b-46a6-9837-ccb5d1b3fa7b" />
   <Project Path="StringsApp/StringsApp.csproj" Id="4440307d-7126-4c10-adc9-f21ef1b6ec7d" />
   <Project Path="SwapApp/SwapApp.csproj" Id="311c0744-3033-4a7c-8277-a8be8e75ca1a" />
   <Project Path="SwitchApp/SwitchApp.csproj" Id="f4e2f6fb-4164-4c9b-8611-26d89a44abff" />
