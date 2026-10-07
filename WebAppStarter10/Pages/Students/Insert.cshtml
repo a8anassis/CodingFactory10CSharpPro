@@ -1,0 +1,35 @@
+﻿@page
+@model WebAppStarter10.Pages.Students.InsertModel
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<h1>Add new Student</h1>
+
+<form method="POST" asp-page="/Students/Insert">
+
+    <div class="">
+        <label asp-for="InsertStudentDTO.Firstname">Firstname</label>
+        <input asp-for="InsertStudentDTO.Firstname" class="form-control" />
+        <span asp-validation-for="InsertStudentDTO.Firstname" class="text-danger"></span>
+    </div>
+
+    <div class="">
+        <label asp-for="InsertStudentDTO.Lastname">Lastname</label>
+        <input asp-for="InsertStudentDTO.Lastname" class="form-control" />
+        <span asp-validation-for="InsertStudentDTO.Lastname" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="InsertStudentDTO.SelectedCityId">Select a city:</label>
+
+        <select asp-for="InsertStudentDTO.SelectedCityId" 
+                    asp-items="Model.Cities" 
+                    class="form-control">
+            <option value=""></option>
+        </select>
+        <span asp-validation-for="InsertStudentDTO.SelectedCityId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
