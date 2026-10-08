@@ -40,9 +40,9 @@ public class InsertModel : PageModel
         Cities = new SelectList(new List<City>()
         {
             new City() { Id = 1, Name = "Αθήνα"},
-            new City() { Id = 2, Name = "Πάτρα"}
-            new City() { Id = 3, Name = "Ηράκλειο"}
-            new City() { Id = 4, Name = "Δράμα"}
+            new City() { Id = 2, Name = "Πάτρα"},
+            new City() { Id = 3, Name = "Ηράκλειο"},
+            new City() { Id = 4, Name = "Δράμα"},
             new City() { Id = 5, Name = "Χανιά"}
         }.OrderBy(c => c.Name), nameof(City.Id), nameof(City.Name));
     }

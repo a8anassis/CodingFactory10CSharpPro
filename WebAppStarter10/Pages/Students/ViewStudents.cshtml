@@ -1,7 +1,7 @@
 ﻿@page
 @model WebAppStarter10.Pages.Students.ViewStudentsModel
 @{
-    ViewData["Title"] = "View Students"
+    ViewData["Title"] = "View Students";
 }
 
 <div class="container">
@@ -15,11 +15,11 @@
         </div>
     </form>
 
-    @if (Model.StudentsReadOnlyDTOs.Any())
+    @if (Model.StudentReadOnlyDTOs.Any())
     {
         <table class="table table-dark text-center w-75">
             <thead>
-                <tr class="table-primary"><th span="3">Coding Factory Students</th></tr>
+                <tr class="table-primary"><th colspan="3">Coding Factory Students</th></tr>
                 <tr>
                     <th>Id</th>
                     <th>Firstname</th>
@@ -27,7 +27,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var studentReadOnlyDTO in Model.StudentsReadOnlyDTOs)
+                @foreach (var studentReadOnlyDTO in Model.StudentReadOnlyDTOs)
                 {
                     <tr>
                         <th>@studentReadOnlyDTO.Id</th>
